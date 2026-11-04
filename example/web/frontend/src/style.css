@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #eff1f4;
+  font-family: -apple-system, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+  color: #333;
+}
+
+/* 顶部验证码展示带 */
+.captcha-band {
+  background: #ececec;
+  padding: 28px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 56px;
+  flex-wrap: wrap;
+}
+
+.captcha-view {
+  cursor: pointer;
+  min-height: 90px;
+  min-width: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.captcha-img {
+  display: block;
+  border: 1px solid #b7eb8f;
+  box-shadow: 0 0 6px rgba(140, 200, 80, 0.8);
+  max-width: min(640px, 82vw);
+}
+
+.captcha-audio {
+  display: block;
+  min-width: min(560px, 80vw);
+}
+
+.captcha-empty {
+  color: #eee;
+  font-size: 14px;
+  padding: 40px 60px;
+}
+
+.verify-col {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.verify-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 28px;
+}
+
+.page {
+  max-width: 1200px;
+  margin: 20px auto 64px;
+  padding: 0 16px;
+}
+
+.form {
+  padding: 8px 4px 20px;
+}
+
+.param-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 0;
+}
+
+.param-label {
+  width: 250px;
+  flex: none;
+  font-size: 14px;
+  color: #444;
+}
+
+.param-slider {
+  flex: 1;
+}
+
+.param-number {
+  width: 132px;
+  flex: none;
+}
+
+.param-wide {
+  flex: 1;
+  min-width: 0;
+}
+
+.fonts-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+}
+
+.code-pre {
+  margin: 0;
+  padding: 16px;
+  border-radius: 6px;
+  overflow: auto;
+  font-size: 13px;
+  line-height: 1.6;
+  background: #0d1117;
+}
+
+.code-pre code {
+  background: transparent;
+  padding: 0;
+  font-family: 'Cascadia Code', Consolas, 'Courier New', monospace;
+}
