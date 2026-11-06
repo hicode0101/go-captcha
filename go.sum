@@ -2,3 +2,6 @@ github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0 h1:DACJavvAHhabrF0
 github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0/go.mod h1:E/TSTwGwJL78qG/PmXZO1EjYhfJinVAhrmmHX6Z8B9k=
 golang.org/x/image v0.23.0 h1:HseQ7c2OpPKTPVzNjG5fwJsOTCiiwS4QdsYi5XU6H68=
 golang.org/x/image v0.23.0/go.mod h1:wJJBTdLfCCf3tiHa1fNxpZmUI4mmoZvwMCPP0ddoNKY=
+golang.org/x/image v0.44.1-0.20260713201139-315273a91ff5 h1:s8pB3PAYWQCvzn6ybJPF6w+ZsxhUzEippGZIL8oi2mY=
+golang.org/x/image v0.44.1-0.20260713201139-315273a91ff5/go.mod h1:S05khaabrpzVbvz65x44i/3MvH3f9u+XwBIwogkc7do=
+golang.org/x/image v0.47.0/go.mod h1:IkN5o4A7vq55vXN8FWjjnhg9Rs2GOtffqsSi9mWAKYE=
